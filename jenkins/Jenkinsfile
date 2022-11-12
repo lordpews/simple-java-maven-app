@@ -26,5 +26,10 @@ pipeline {
                 echo "Task failed successfully"
             }
         }
+        stage('added a stage for no reason') {
+            steps {
+                echo "stage added successfully"
+            }
+        }
     }
 }
